@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "891302860277",
+    "firebase_url": "https://mydoggy-c1999.firebaseio.com",
+    "project_id": "mydoggy-c1999",
+    "storage_bucket": "mydoggy-c1999.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891302860277:android:6ece4e4bd7c15e9a993cbc",
+        "android_client_info": {
+          "package_name": "com.myDogApplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891302860277-lvd6ou7k1680c24m8sish7u8n29rp378.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myDogApplication",
+            "certificate_hash": "c3add9797ff6c31de2708a1669c05971e02fe84d"
+          }
+        },
+        {
+          "client_id": "891302860277-uatup4gqeim9o5e7114mcibtq7f98g5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQpjgQnPMal-q3eB3EPmVsvaw8x0lsjBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891302860277-uatup4gqeim9o5e7114mcibtq7f98g5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

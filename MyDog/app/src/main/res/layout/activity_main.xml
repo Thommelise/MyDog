@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pager"
+        tools:context=".MainActivity">
+        <fragment
+
+            android:id="@+id/mainFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:name="com.mydogapplication.MainFragment">
+
+        </fragment>
+
+        <androidx.viewpager.widget.PagerTabStrip
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/titleTab"
+            android:focusableInTouchMode="false">
+
+        </androidx.viewpager.widget.PagerTabStrip>
+    </androidx.viewpager.widget.ViewPager>
+</LinearLayout>
